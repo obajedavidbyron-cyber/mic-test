@@ -1,0 +1,6 @@
+{
+  "name": "Rental Platform",
+  "description": "A high-performance rental house search platform resembling Zillow and Airbnb, allowing tenants to search and filter homes and landlords to publish listings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

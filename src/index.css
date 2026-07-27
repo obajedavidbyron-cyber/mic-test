@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Georgia", "Outfit", "Plus Jakarta Sans", serif;
+  --color-brand-50: #fdfbf7;
+  --color-brand-100: #f0f0eb;
+  --color-brand-500: #5a5a40; /* Earthy Olive */
+  --color-brand-600: #4a4a30; /* Darker Earthy Olive */
+  --color-brand-700: #3a3a24;
+}
+
+/* Base custom styles to ensure elegant layout with Natural Tones */
+body {
+  font-family: var(--font-sans);
+  background-color: #f5f5f0; /* Warm off-white sand */
+  color: #1a1a1a; /* Soft charcoal black */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
+
+/* Additional utility styling variables for organic themes */
+.border-organic {
+  border-color: #e5e5e0;
+}
+
+.bg-organic-canvas {
+  background-color: #f5f5f0;
+}
+
+.bg-organic-card {
+  background-color: #ffffff;
+}
+
+.text-organic-dark {
+  color: #1a1a1a;
+}
+
+.text-organic-muted {
+  color: #4a4a40;
+}
+
+.text-organic-gold {
+  color: #a3a380;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
